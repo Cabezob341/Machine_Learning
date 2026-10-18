@@ -70,7 +70,7 @@ flowchart LR
 
 ---
 
-## 🎯 01 · Presentación del caso y problema — 5 puntos
+## 🎯 01 · Presentación del caso y problema 
 
 ### 🍼 Punto de partida: la infografía del examen
 
@@ -119,7 +119,7 @@ La duración del ciclo se expresa en **minutos**, una cantidad numérica; por el
 
 ---
 
-## 🧩 02 · Espacio de estados — 5 puntos
+## 🧩 02 · Espacio de estados 
 
 Se representa el avance de un **proceso de gestión de información**, no las etapas clínicas ni fisiológicas del bebé.
 
@@ -172,7 +172,7 @@ BFS inspecciona estados por niveles y encuentra un camino de **cuatro acciones**
 
 ---
 
-## 🧠 03 · Pipeline de razonamiento y búsqueda — 5 puntos
+## 🧠 03 · Pipeline de razonamiento y búsqueda
 
 <div align="center">
 
@@ -199,7 +199,7 @@ El notebook aborda las etapas **Problema → Espacio de estados → Exploración
 
 ---
 
-## 📈 04 · Pipeline de predicción y visualización — 5 puntos
+## 📈 04 · Pipeline de predicción y visualización 
 
 <div align="center">
 
