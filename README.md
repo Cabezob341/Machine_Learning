@@ -32,7 +32,6 @@
 | 🧩 | [02 · Espacio de estados](#-02--espacio-de-estados--5-puntos) | Modelo formal, reglas, transiciones y diagrama |
 | 🧠 | [03 · Razonamiento y búsqueda](#-03--pipeline-de-razonamiento-y-búsqueda--5-puntos) | Exploración BFS y resultado |
 | 📈 | [04 · Predicción y visualización](#-04--pipeline-de-predicción-y-visualización--5-puntos) | Modelo, métricas e interpretación |
-| 🧪 | [Reproducibilidad](#-reproducibilidad--cómo-ejecutar) | Pasos de ejecución y dependencias |
 | 📁 | [Estructura del repositorio](#-estructura-del-repositorio) | Archivos y carpetas |
 | 📚 | [Fuentes y límites](#-fuentes-y-referencias) | Material utilizado y advertencias |
 
@@ -265,31 +264,6 @@ Estos números se refieren a una **ejecución de ejemplo**, no a una validación
 - Los datos se **generan**, no provienen de historias clínicas ni de mediciones individuales del estudio.
 - Un buen ajuste sobre datos sintéticos **no garantiza generalización** a bebés reales.
 - Una futura evaluación con datos reales requeriría autorización, revisión de sesgos, protección de datos y validación independiente; también podría comparar alternativas no lineales.
-
----
-
-## 🧪 Reproducibilidad · Cómo ejecutar
-
-**Opción recomendada: Google Colab (sin instalaciones locales)**
-
-1. Abre el [Notebook 01](https://colab.research.google.com/github/Cabezob341/Machine_Learning/blob/main/notebooks/01_Razonamiento_Busqueda.ipynb).
-2. Selecciona **Entorno de ejecución → Ejecutar todas** y revisa la ruta encontrada.
-3. Abre el [Notebook 02](https://colab.research.google.com/github/Cabezob341/Machine_Learning/blob/main/notebooks/02_Regresion_Sueno.ipynb).
-4. Ejecuta todas las celdas y revisa métricas y gráficos.
-5. Para conservar resultados, utiliza **Archivo → Guardar una copia en GitHub** y verifica la ruta antes de sobrescribir el notebook original.
-
-**Opción local (opcional):**
-
-```bash
-git clone https://github.com/Cabezob341/Machine_Learning.git
-cd Machine_Learning
-python -m pip install -r requirements.txt
-jupyter notebook
-```
-
-**Tecnologías:** Python 3 · NumPy · pandas · Matplotlib · scikit-learn · Jupyter/Google Colab.
-
-La generación utiliza **semilla aleatoria fija**, y el archivo [`datos/sueno_sintetico.csv`](datos/sueno_sintetico.csv) contiene las observaciones sintéticas preparadas para la demostración.
 
 ---
 
