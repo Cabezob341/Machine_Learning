@@ -33,7 +33,6 @@
 | 🧠 | [03 · Razonamiento y búsqueda](#-03--pipeline-de-razonamiento-y-búsqueda--5-puntos) | Exploración BFS y resultado |
 | 📈 | [04 · Predicción y visualización](#-04--pipeline-de-predicción-y-visualización--5-puntos) | Modelo, métricas e interpretación |
 | 📁 | [Estructura del repositorio](#-estructura-del-repositorio) | Archivos y carpetas |
-| 📚 | [Fuentes y límites](#-fuentes-y-referencias) | Material utilizado y advertencias |
 
 ## ✨ Vista general
 
@@ -103,7 +102,7 @@ La evolución del sueño durante los primeros meses de vida es variable. Al comb
 
 ### 🤖 ¿Por qué Machine Learning?
 
-La duración del ciclo se expresa en **minutos**, una cantidad numérica; por ello corresponde una tarea de **regresión**, no de clasificación. Usamos **aprendizaje supervisado**: las variables predictoras son `X` y la duración conocida en cada fila sintética es `y`. La **regresión lineal múltiple** sirve como punto de partida por su sencillez, reproducibilidad e interpretabilidad, conforme a los temas tratados en las sesiones 5, 6 y 7.
+La duración del ciclo se expresa en **minutos**, una cantidad numérica; por ello corresponde una tarea de **regresión**, no de clasificación. Usamos **aprendizaje supervisado**: las variables predictoras son `X` y la duración conocida en cada fila sintética es `y`. La **regresión lineal múltiple** sirve como punto de partida por su sencillez, reproducibilidad e interpretabilidad.
 
 ### 🧾 Diccionario de variables
 
@@ -285,36 +284,11 @@ Machine_Learning/
     └── PASOS_MANUALES.md
 ```
 
-<details>
-<summary><strong>✅ Lista de comprobación antes de entregar</strong></summary>
-
-- [ ] Se ven correctamente el README y el diagrama en GitHub.
-- [ ] Los enlaces de ambos notebooks abren Google Colab.
-- [ ] El Notebook 01 muestra la solución BFS y los estados explorados.
-- [ ] El Notebook 02 muestra métricas y gráficos sin errores.
-- [ ] Los datos están identificados explícitamente como sintéticos.
-- [ ] Los notebooks ejecutados están guardados en el repositorio.
-- [ ] El repositorio es accesible al docente.
-
 Consulta también la [guía detallada de pasos manuales](documentacion/PASOS_MANUALES.md).
 
 </details>
 
 ---
-
-## 📚 Fuentes y referencias
-
-1. **Caso de examen:** infografía *El sueño en los primeros meses de vida*, fotografía proporcionada en el parcial. Se emplean sus referencias agregadas y se distingue su contenido de la simulación.
-2. **UPCH, sesión 5:** *Tipos de Aprendizaje* (supervisado y otras modalidades).
-3. **UPCH, sesión 6:** *Clasificación vs Regresión y Clustering vs Reducción*.
-4. **UPCH, sesión 7:** *Regresión Lineal, Regresión No Lineal y Regresión Logística*.
-5. **Hoja de evaluación:** *Challenge 1 (Individual): Pipeline de Machine Learning*, preparada el **06/10/2026**.
-
-> [!CAUTION]
-> **Uso educativo exclusivamente.** No debe utilizarse el modelo para diagnóstico, evaluación médica ni recomendaciones clínicas. Los resultados cuantitativos describen una simulación y **no equivalen a evidencia médica**.
-
----
-
 <div align="center">
 
 ### 🌌 Aprender de los datos. Razonar con claridad. Comunicar con responsabilidad.
