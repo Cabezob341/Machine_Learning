@@ -2,8 +2,6 @@
 
 **Curso:** Machine Learning — UPCH | **Caso de examen:** Tipo C, sueño en los recién nacidos.
 
-> La hoja de evaluación adjunta se titula **Challenge 1 (Individual): Pipeline de Machine Learning**, aunque la solicitud del estudiante dice Challenge 2. Se desarrolla íntegramente la hoja adjunta, sin suponer que existe otra rúbrica.
-
 ## 1. Presentación del caso y problema (5 puntos)
 
 ### Contexto del examen
