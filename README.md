@@ -53,19 +53,6 @@ flowchart LR
     G --> H
 ```
 
-### 📋 Relación con la rúbrica
-
-| Bloque evaluado | Entregable | Puntaje |
-|---|---|:---:|
-| Presentación del caso y problema | Planteamiento fundamentado en el caso | **5** |
-| Espacio de estados | Estados, acciones, restricciones y visualización | **5** |
-| Razonamiento, búsqueda y resultados | Notebook Python de exploración BFS | **5** |
-| Modelo de predicción y visualización | Notebook de regresión, evaluación y gráficos | **5** |
-| **Total** | **Cuatro componentes integrados** | **20** |
-
-> [!NOTE]
-> El archivo de evaluación adjunto se denomina **“Challenge 1 (Individual): Pipeline de Machine Learning”**, mientras que en la conversación se lo ha llamado “Challenge 2”. La organización de este repositorio sigue **los cuatro apartados de la rúbrica proporcionada**, sin asumir una rúbrica distinta.
-
 ---
 
 ## 🎯 01 · Presentación del caso y problema 
